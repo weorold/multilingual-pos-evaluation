@@ -1,0 +1,29 @@
+# Multilingual POS Tagging Evaluation - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# NLP Libraries
+stanza==1.11.0
+spacy==3.7.2
+conllu==4.5.3
+
+# Machine Learning & Evaluation
+scikit-learn==1.7.2
+
+# Data Processing
+pandas==2.3.3
+numpy==2.2.6
+
+# Visualization
+matplotlib==3.10.7
+seaborn==0.13.2
+
+# Note: After installation, download required Stanza models:
+# >>> import stanza
+# >>> stanza.download('en')  # English
+# >>> stanza.download('es')  # Spanish
+# Note: Yoruba model not available in Stanza
+
+# Optional: spaCy models (if using spaCy evaluation)
+# Install with:
+# python -m spacy download en_core_web_sm
+# python -m spacy download es_core_news_sm
