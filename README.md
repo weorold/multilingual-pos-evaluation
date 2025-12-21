@@ -3,8 +3,8 @@
 **Examining NLP Performance Disparities Across High-Resource and Low-Resource Languages**
 
 Author: Justin "Aurelio" Fernandez Sanchez  
-Date: December 2025  
-Course: LNG 3430 - Internet Linguistics, CUNY Lehman College
+Date: December 16 2025  
+Course: LNG 3430: Internet Linguistics, CUNY Lehman College
 
 ---
 
@@ -44,7 +44,7 @@ This project evaluates part-of-speech (POS) tagging accuracy across languages wi
 | **Dominican Spanish** | **73.4%** | **0.752** | 870 |
 
 **Error Analysis:** Dominican Spanish errors concentrated on dialectal features:
-- Phonological contractions (pa', ta): 100% failure rate
+- Phonological contractions (pa', ta): High failure rate
 - Code-switches: Systematic misclassification
 - Regional vocabulary: Unrecognized as valid forms
 
@@ -98,7 +98,7 @@ This will generate:
 
 ## Significance
 
-This research quantifies systematic exclusion of low-resource languages and dialectal varieties from NLP infrastructure. Despite Yoruba's 48 million speakers and available training data, major NLP libraries provide no pretrained models—demonstrating that infrastructure gaps are policy choices, not technical limitations.
+This research quantifies systematic exclusion of low-resource languages and dialectal varieties from NLP infrastructure. Despite Yoruba's 48 million speakers and available training data, major NLP libraries provide no pretrained models, demonstrating that infrastructure gaps are policy choices and not technical limitations.
 
 The findings have implications for:
 - Language technology equity
